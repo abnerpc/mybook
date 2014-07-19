@@ -1,0 +1,13 @@
+Flask==0.10.1
+Jinja2==2.7.3
+Mako==1.0.0
+MarkupSafe==0.23
+PyYAML==3.11
+SQLAlchemy==0.9.6
+Unidecode==0.04.16
+Werkzeug==0.9.6
+alembic==0.6.5
+dataset==0.5.4
+itsdangerous==0.24
+python-slugify==0.0.7
+wsgiref==0.1.2
