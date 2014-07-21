@@ -1,12 +1,12 @@
-mybook project
+Mybook project
 ==============
 
 mybook é um projeto Flask que fornece interfaces REST para salvar, listar e excluir detalhes de um usuário do Facebook.
 
-instalação
+Instalação
 ==========
 
-1. clone e instalação das dependências
+1. Clone e instalação das dependências
 
 ```bash
 $ git clone https://github.com/abnerpc/mybook.git
@@ -14,17 +14,17 @@ $ cd mybook
 $ pip install -r requirements.txt
 ```
 
-2. run
+2. Run
 
 ```bash
 $ python run.py
 ```
 
 
-como usar
+Como usar
 =========
 
-1. salvar detalhes de um usuário
+1. Salvar detalhes de um usuário
 
 > pode ser usado o username do usuário
 
@@ -38,7 +38,7 @@ curl -X POST -F facebookId=abnerpc http://localhost:5000/api/person/
 curl -X POST -F facebookId=725876734 http://localhost:5000/api/person/
 ```
 
-2. listar os detalhes salvos
+2. Listar os detalhes salvos
 
 ```bash
 curl http://localhost:5000/api/person/
@@ -50,13 +50,13 @@ curl http://localhost:5000/api/person/
 curl "http://localhost:5000/api/person/?limit=2"
 ```
 
-3. excluir um detalhe
+3. Excluir um detalhe
 
 ```bash
 curl -X DELETE http://localhost:5000/api/person/abnerpc
 ```
 
 
-![python](docs/python_powered.png)
+![python](https://www.python.org/static/community_logos/python-logo.png)
 &nbsp;
-![flask](docs/flask_powered.png)
+![flask](http://flask.pocoo.org/static/badges/flask-powered.png)
