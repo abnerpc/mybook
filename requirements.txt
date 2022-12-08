@@ -4,13 +4,11 @@
 #
 #    pip-compile requirements.in
 #
---extra-index-url https://pypi.fury.io/CnVyuvjFzaw4eastdYRc/loadsmart/
-
 alembic==1.7.5
     # via dataset
 banal==1.0.6
     # via dataset
-certifi==2021.10.8
+certifi==2022.12.7
     # via requests
 charset-normalizer==2.0.7
     # via requests
