@@ -4,8 +4,6 @@
 #
 #    pip-compile requirements.in
 #
---extra-index-url https://pypi.fury.io/CnVyuvjFzaw4eastdYRc/loadsmart/
-
 alembic==1.7.5
     # via dataset
 banal==1.0.6
@@ -30,10 +28,11 @@ jinja2==3.0.3
     # via flask
 mako==1.1.5
     # via alembic
-markupsafe==2.0.1
+markupsafe==2.1.2
     # via
     #   jinja2
     #   mako
+    #   werkzeug
 python-dateutil==2.8.2
     # via -r requirements.in
 python-editor==1.0.4
@@ -48,5 +47,5 @@ sqlalchemy==1.4.27
     #   dataset
 urllib3==1.26.7
     # via requests
-werkzeug==2.0.2
+werkzeug==2.2.3
     # via flask
